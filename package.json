@@ -1,0 +1,29 @@
+{
+    "name": "@softvisio/vue-store",
+    "version": "0.0.6",
+    "description": "Pinia store from ES class",
+    "keywords": [
+        "softvisio",
+        "vue",
+        "vuex",
+        "pinia"
+    ],
+    "homepage": "https://softvisio.github.io/vue-store/",
+    "bugs": {
+        "url": "https://github.com/softvisio/vue-store/issues",
+        "email": "zdm <zdm@softvisio.net>"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/softvisio/vue-store.git"
+    },
+    "license": "ISC",
+    "author": "zdm <zdm@softvisio.net>",
+    "type": "module",
+    "exports": {
+        ".": "./lib/index.js"
+    },
+    "dependencies": {
+        "pinia": "^2.0.22"
+    }
+}
